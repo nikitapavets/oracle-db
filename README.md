@@ -1,4 +1,4 @@
-# E-commerce database design
+# E-commerce database designing
 
 ## Stack
 - draw.io

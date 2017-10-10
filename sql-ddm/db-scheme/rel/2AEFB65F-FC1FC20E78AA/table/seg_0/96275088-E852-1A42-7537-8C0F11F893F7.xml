@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96275088-E852-1A42-7537-8C0F11F893F7" name="brand">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 21:19:30 UTC</createdTime>
+<generatorID>9DE3C243-25EB-AB51-15CF-5115BC9ADF17</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E8A4EEED-94BF-288E-FDBA-779196986A0E">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 21:19:30 UTC</createdTime>
+<generatorID>C004FA1B-524F-EE56-15FD-C9DA83114215</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="57A7472C-F414-AB86-EAD5-2B2E4572DFC4">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 21:19:30 UTC</createdTime>
+<generatorID>136375B4-7F38-8026-B771-C7B794D8F437</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country_id" id="AC3BE0AC-46C5-3718-CEA7-2E20A650C4DE">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 21:19:30 UTC</createdTime>
+<generatorID>47547592-3200-FB2D-3DDD-295A02C561C9</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>702A4619-EC90-728F-0831-F5F00FC3430A</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CADE15CE-7513-B52E-EA27-05EFC62D51A1" referredColumn="702A4619-EC90-728F-0831-F5F00FC3430A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="289D1707-BCE4-3731-96A7-E9828A10F261" name="Brand PK">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 21:19:30 UTC</createdTime>
+<generatorID>9619F1C4-AC78-7428-96BC-B15476B8CD3A</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8A4EEED-94BF-288E-FDBA-779196986A0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D5539F5-8D97-EA8A-E955-7DD78F85851E" name="country_brand">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 21:19:30 UTC</createdTime>
+<generatorID>30ED3EF1-D3AF-E738-A3F0-BB88B5B935F2</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC3BE0AC-46C5-3718-CEA7-2E20A650C4DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

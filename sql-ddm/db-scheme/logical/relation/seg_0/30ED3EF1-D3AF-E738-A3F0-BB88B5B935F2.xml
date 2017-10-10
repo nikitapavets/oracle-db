@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="country_brand" directorySegmentName="seg_0" id="30ED3EF1-D3AF-E738-A3F0-BB88B5B935F2">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 17:11:37 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<engineerTo>
+<item key="0CDB9755-635B-EDDC-A20A-7860390FD607" value="true"/>
+</engineerTo>
+<sourcePk>CACBC9C0-5F51-EF86-EF36-C7998F1552A6</sourcePk>
+<targetPk>9619F1C4-AC78-7428-96BC-B15476B8CD3A</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>86973F08-39DB-981D-2CDF-7681BE37B80A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9DE3C243-25EB-AB51-15CF-5115BC9ADF17</targetEntity>
+<transferable>true</transferable>
+</Relation>

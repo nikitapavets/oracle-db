@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="review" directorySegmentName="seg_0" id="EE3D949C-2929-CCA7-B077-4C4A6F5B0304">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 16:58:06 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<engineerTo>
+<item key="0CDB9755-635B-EDDC-A20A-7860390FD607" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>55293D04-08A5-D09C-534E-B05450D4B9B0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AE72F713-DCFC-36F1-0FE9-2CB670D17F93</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="mark" id="6B4CF2B8-439F-299C-1CC2-1A9D027A8C8B">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 16:58:35 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<engineerTo>
+<item key="0CDB9755-635B-EDDC-A20A-7860390FD607" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</attribute>
+<attribute name="review" id="4BFC9AF6-6C42-9387-A370-9794B214C9F7">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 16:58:47 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<engineerTo>
+<item key="0CDB9755-635B-EDDC-A20A-7860390FD607" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+</attribute>
+</attributes>
+</Relation>

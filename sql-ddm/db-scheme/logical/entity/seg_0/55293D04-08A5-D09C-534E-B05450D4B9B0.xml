@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="55293D04-08A5-D09C-534E-B05450D4B9B0" name="customer">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 16:52:13 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<engineerTo>
+<item key="2AEFB65F-1A32-002B-93AF-FC1FC20E78AA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="5AF2C482-9440-96EE-608D-C3B56A21989B">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 16:52:13 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<engineerTo>
+<item key="2AEFB65F-1A32-002B-93AF-FC1FC20E78AA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="first_name" id="8D682783-F3BE-AAD1-D50A-34679FC6A3D0">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 16:52:13 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<engineerTo>
+<item key="2AEFB65F-1A32-002B-93AF-FC1FC20E78AA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="last_name" id="3DCECBD4-2304-17CA-DBB6-F11F29B4C963">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 16:52:38 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<engineerTo>
+<item key="2AEFB65F-1A32-002B-93AF-FC1FC20E78AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="email" id="E39AC119-A3E1-D1F0-9244-39D6A1789876">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 16:52:38 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<engineerTo>
+<item key="2AEFB65F-1A32-002B-93AF-FC1FC20E78AA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="password" id="127195BF-FCF1-2CA9-F342-2EC4BBAC11C1">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 16:52:38 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<engineerTo>
+<item key="2AEFB65F-1A32-002B-93AF-FC1FC20E78AA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="city_id" id="E1BF4A32-8ED9-98A9-D282-5B5B8646E71D">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 17:12:43 UTC</createdTime>
+<generatorID>653C5D82-D954-D702-2ED8-3A75DF1FCF57</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<engineerTo>
+<item key="2AEFB65F-1A32-002B-93AF-FC1FC20E78AA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>42B578BB-09E8-4173-A6A7-24097EBB4B0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="40C5E0BF-0140-150C-DE51-01122141877F" name="Notebook PK">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 16:52:13 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<engineerTo>
+<item key="2AEFB65F-1A32-002B-93AF-FC1FC20E78AA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5AF2C482-9440-96EE-608D-C3B56A21989B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

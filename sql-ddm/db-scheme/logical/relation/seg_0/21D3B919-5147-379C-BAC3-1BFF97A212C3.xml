@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="provider_notebook" directorySegmentName="seg_0" id="21D3B919-5147-379C-BAC3-1BFF97A212C3">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 17:18:07 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<engineerTo>
+<item key="2AEFB65F-1A32-002B-93AF-FC1FC20E78AA" value="true"/>
+</engineerTo>
+<sourcePk>056B4D45-E178-2C11-4BFB-009353B7297E</sourcePk>
+<targetPk>D7A31176-C740-AADC-5A21-719C6C075B47</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5792D79D-B683-EB4C-CB2F-87F736328673</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AE72F713-DCFC-36F1-0FE9-2CB670D17F93</targetEntity>
+<transferable>true</transferable>
+</Relation>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9DE3C243-25EB-AB51-15CF-5115BC9ADF17" name="brand">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 16:10:23 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<engineerTo>
+<item key="0CDB9755-635B-EDDC-A20A-7860390FD607" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="C004FA1B-524F-EE56-15FD-C9DA83114215">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 16:10:55 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<engineerTo>
+<item key="0CDB9755-635B-EDDC-A20A-7860390FD607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="title" id="136375B4-7F38-8026-B771-C7B794D8F437">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 16:11:14 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<engineerTo>
+<item key="0CDB9755-635B-EDDC-A20A-7860390FD607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="country_id" id="47547592-3200-FB2D-3DDD-295A02C561C9">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 17:11:37 UTC</createdTime>
+<generatorID>30ED3EF1-D3AF-E738-A3F0-BB88B5B935F2</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<engineerTo>
+<item key="0CDB9755-635B-EDDC-A20A-7860390FD607" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F6C6B286-39FF-5D7B-067E-983060B1EA5A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9619F1C4-AC78-7428-96BC-B15476B8CD3A" name="Brand PK">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 16:11:09 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<engineerTo>
+<item key="0CDB9755-635B-EDDC-A20A-7860390FD607" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C004FA1B-524F-EE56-15FD-C9DA83114215</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

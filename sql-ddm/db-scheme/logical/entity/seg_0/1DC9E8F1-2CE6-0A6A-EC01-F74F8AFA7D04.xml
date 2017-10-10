@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1DC9E8F1-2CE6-0A6A-EC01-F74F8AFA7D04" name="image">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 16:20:13 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<engineerTo>
+<item key="0CDB9755-635B-EDDC-A20A-7860390FD607" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="1ECE92EB-0A27-D99A-F283-3AC8E557D779">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 16:20:23 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<engineerTo>
+<item key="0CDB9755-635B-EDDC-A20A-7860390FD607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="link" id="CF119571-81A3-D937-22F0-6C7BB549B750">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 16:20:38 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<engineerTo>
+<item key="0CDB9755-635B-EDDC-A20A-7860390FD607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="type" id="5939E7B4-6F60-1E9E-3625-96DDCDE57B3A">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 16:21:07 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<engineerTo>
+<item key="0CDB9755-635B-EDDC-A20A-7860390FD607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+</Attribute>
+<Attribute name="notebook_id" id="F52C88DA-A6CC-5F4A-F3DC-F3B3246CB563">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 17:15:35 UTC</createdTime>
+<generatorID>C08C0DFA-AAC4-D358-2934-2A1D81FCDFF6</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<engineerTo>
+<item key="0CDB9755-635B-EDDC-A20A-7860390FD607" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>323C5D9C-82BF-3DF5-CFC9-ECECFB1C1B93</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3F4DF6E4-C6E7-0A62-476E-AFEFE00589A3" name="Image PK">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 16:20:35 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<engineerTo>
+<item key="0CDB9755-635B-EDDC-A20A-7860390FD607" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1ECE92EB-0A27-D99A-F283-3AC8E557D779</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

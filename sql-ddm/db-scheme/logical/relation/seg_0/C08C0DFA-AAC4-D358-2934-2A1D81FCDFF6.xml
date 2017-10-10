@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="notebooks_image" directorySegmentName="seg_0" id="C08C0DFA-AAC4-D358-2934-2A1D81FCDFF6">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-10 17:15:35 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<engineerTo>
+<item key="0CDB9755-635B-EDDC-A20A-7860390FD607" value="true"/>
+</engineerTo>
+<sourcePk>D7A31176-C740-AADC-5A21-719C6C075B47</sourcePk>
+<targetPk>3F4DF6E4-C6E7-0A62-476E-AFEFE00589A3</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AE72F713-DCFC-36F1-0FE9-2CB670D17F93</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1DC9E8F1-2CE6-0A6A-EC01-F74F8AFA7D04</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

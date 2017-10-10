@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="E077328D-FE3D-2BFC-1161-AD743C39CA54" name="Provider" seqName="seg_0"/>
+   <object objectType="Table" objectID="14EC6403-3C8D-AFA2-DA57-6ADE75337BC2" name="basket" seqName="seg_0"/>
+   <object objectType="Table" objectID="96275088-E852-1A42-7537-8C0F11F893F7" name="brand" seqName="seg_0"/>
+   <object objectType="Table" objectID="EC24CF0B-6BC4-C8C8-B4E8-01110F4222E1" name="city" seqName="seg_0"/>
+   <object objectType="Table" objectID="74CCC8CA-98C4-03BC-DFCD-35DAD557E114" name="country" seqName="seg_0"/>
+   <object objectType="Table" objectID="4F037001-02EB-56F0-BCA7-D327091CD5C8" name="customer" seqName="seg_0"/>
+   <object objectType="Table" objectID="38FC4F90-9577-AE05-3E25-FA6E688F8C12" name="image" seqName="seg_0"/>
+   <object objectType="Table" objectID="45873CA5-DE3A-6A59-8649-7558F0C12466" name="notebook" seqName="seg_0"/>
+   <object objectType="Table" objectID="6F6CCD36-699F-2C6B-9795-6E105661C7BB" name="review" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="788C1810-F058-BE1A-02CB-CF5276C2A021" name="FK_ASS_1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="EFF7F02C-F1EE-4926-26D8-D49D3923C4C6" name="FK_ASS_10" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F3E3A5B4-1D99-7349-1C68-47D558C530B8" name="FK_ASS_2" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="720F23C4-141A-13A9-27F9-CB20159DCF4D" name="FK_ASS_9" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="7ADE88DD-CD94-1885-3657-EFE7D60C6D24" name="brand_notebook" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="87720941-A23E-E2B9-B01F-FA1F535B9A9B" name="city_costomer" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="CADE15CE-7513-B52E-EA27-05EFC62D51A1" name="country_brand" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9DDB86F3-E4A9-09E7-2F2A-2D1151102DD8" name="country_city" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6BA6827E-6DE0-9791-3C9A-1618BCA80C45" name="notebooks_image" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="72DFB31E-76DB-54E2-F3C2-A62E117AF0D4" name="provider_notebook" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

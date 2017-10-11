@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EAB42B29-0EDB-753A-F81C-C9D1B9B99C32" name="customer">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>55293D04-08A5-D09C-534E-B05450D4B9B0</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="9883B5E7-8BB0-89EB-4E6B-90DD0786DFBF">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>5AF2C482-9440-96EE-608D-C3B56A21989B</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="035C245E-130F-FBC5-6F0D-8C9FF735D8D2">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>8D682783-F3BE-AAD1-D50A-34679FC6A3D0</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="ABA6B37E-8BEC-7109-3A1F-B285F29B98E8">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>3DCECBD4-2304-17CA-DBB6-F11F29B4C963</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="1CC7E2F4-51C4-02AD-8BC7-5AF98967772A">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>E39AC119-A3E1-D1F0-9244-39D6A1789876</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="3EF6CA08-3749-B6F4-3DC5-9FFB68FBE512">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>127195BF-FCF1-2CA9-F342-2EC4BBAC11C1</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city_id" id="86D1406A-6189-BC07-7846-9C47C6D97306">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>E1BF4A32-8ED9-98A9-D282-5B5B8646E71D</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>A03CDA35-EF24-848C-DDEC-E376207B59BA</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97B647E5-FA18-1557-20ED-CADB33AAC168" referredColumn="A03CDA35-EF24-848C-DDEC-E376207B59BA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="639AA3B2-FE6C-D838-0CA8-DC2E9FC815C3" name="Notebook PK">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>40C5E0BF-0140-150C-DE51-01122141877F</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9883B5E7-8BB0-89EB-4E6B-90DD0786DFBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7022520F-0608-56B4-2CF7-BA574AB7AE05" name="city_costomer">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>653C5D82-D954-D702-2ED8-3A75DF1FCF57</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86D1406A-6189-BC07-7846-9C47C6D97306"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

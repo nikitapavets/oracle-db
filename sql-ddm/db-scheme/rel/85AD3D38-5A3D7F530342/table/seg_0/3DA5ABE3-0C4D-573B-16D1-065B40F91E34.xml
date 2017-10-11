@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3DA5ABE3-0C4D-573B-16D1-065B40F91E34" name="basket">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="customer_id" id="E643D81D-D424-89BC-D716-97EABF46DCFB">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>9883B5E7-8BB0-89EB-4E6B-90DD0786DFBF</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D454CD2-A9A7-3647-45BB-053A8487852A" referredColumn="9883B5E7-8BB0-89EB-4E6B-90DD0786DFBF"/>
+</associations>
+</Column>
+<Column name="notebook_id" id="24C0BC2D-4E0C-AACC-A5AB-CF16D70AECDF">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>C0A51714-5142-80C0-2C10-863121BF1949</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55AAD8B7-279E-AEA5-CDBB-F25AC9C117B6" referredColumn="C0A51714-5142-80C0-2C10-863121BF1949"/>
+</associations>
+</Column>
+<Column name="quantity" id="37159677-C08C-338B-724D-A6C534B252FF">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>04A5237D-7BED-CB17-1784-4980B56E9F8A</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="discount" id="3551F066-324D-A238-AE81-988996313D5A">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>6F39D60D-BA9B-BD6F-B9F1-D655F60AE95A</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9901FC97-FC3C-B2DA-5DBE-02FAF787F5FD" name="basket__IDX">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E643D81D-D424-89BC-D716-97EABF46DCFB"/>
+<colUsage columnID="24C0BC2D-4E0C-AACC-A5AB-CF16D70AECDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="726CDC53-5C98-0798-47F9-E232F4AD8315" name="FK_ASS_1">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>D90A1915-9B13-83FB-26EC-2203155EDEF8</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E643D81D-D424-89BC-D716-97EABF46DCFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6536627-A25A-7F41-6EB6-9C09B9717FC2" name="FK_ASS_2">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>D90A1915-9B13-83FB-26EC-2203155EDEF8</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24C0BC2D-4E0C-AACC-A5AB-CF16D70AECDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

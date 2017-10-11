@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A44E47D-DB93-56C3-FDE9-EB66B2CD2450" name="notebook">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>AE72F713-DCFC-36F1-0FE9-2CB670D17F93</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="C0A51714-5142-80C0-2C10-863121BF1949">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>323C5D9C-82BF-3DF5-CFC9-ECECFB1C1B93</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="D2D80723-E81E-A833-6CC9-0E54344C6AE3">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>C345EC8F-BD71-286A-18A6-A38815ABB917</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="A95890BF-70F7-AD5C-2160-8EBFADA311B4">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>6C8D962D-8EB2-BC28-D313-9C1B96C96044</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="config" id="BEC18DE9-3FAB-988C-DC25-2A53F987EAE9">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>F3C2CA44-A750-EFDC-56FF-DEFA3039ADD8</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="40738961-8793-672D-0011-A0014BDE2DCD">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>B7B73FAA-C4C2-1C71-5707-118FB29E1866</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="brand_id" id="ABB30634-9032-943D-6271-61C273C392CA">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>D9D28758-DA75-44EF-0741-1551D0836B56</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>31A6ABAD-476B-2D33-2339-D6B496AB1CFB</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="243D3EFD-59A1-8AD8-EC06-EE067BE327DF" referredColumn="31A6ABAD-476B-2D33-2339-D6B496AB1CFB"/>
+</associations>
+</Column>
+<Column name="provider_id" id="D8BAEF85-7B11-6F5D-5616-DFF238E0083B">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>9082A629-2286-5D34-D726-608427DCCCA1</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>97593392-5B48-796F-D929-1BE9F9655099</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D9F900F-C772-A9F2-83DD-C402AF83245A" referredColumn="97593392-5B48-796F-D929-1BE9F9655099"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1523DFB-2553-DBF2-2300-9936BE23A26A" name="Notebook PK">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>D7A31176-C740-AADC-5A21-719C6C075B47</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0A51714-5142-80C0-2C10-863121BF1949"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2896085-718B-9530-EF42-C02B9E9140EC" name="brand_notebook">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>24F3C3A7-2630-75D7-B94A-18F0BE0F0EA3</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABB30634-9032-943D-6271-61C273C392CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49488D96-491E-8CAD-D656-47727AB2B2DA" name="provider_notebook">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>21D3B919-5147-379C-BAC3-1BFF97A212C3</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8BAEF85-7B11-6F5D-5616-DFF238E0083B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

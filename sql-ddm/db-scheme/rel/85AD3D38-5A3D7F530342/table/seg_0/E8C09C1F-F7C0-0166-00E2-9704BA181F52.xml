@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8C09C1F-F7C0-0166-00E2-9704BA181F52" name="city">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>E771E6C2-A577-D8C9-B931-5BBD3D98AF0F</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A03CDA35-EF24-848C-DDEC-E376207B59BA">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>42B578BB-09E8-4173-A6A7-24097EBB4B0C</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="A2EABEDD-9F8B-69E6-5179-6220205A2A7A">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>9BC468D0-9D2F-6678-21A0-AD8F63A9A6EA</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country_id" id="F0B3CA9B-1EBF-506B-4A35-D070F21A3058">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>564747EC-9B05-0A18-49D5-626A23C94FF6</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>7DE14CCC-3623-E506-47A0-51A1C421F93F</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="505A4516-B64D-F590-FFE6-20602EB07370" referredColumn="7DE14CCC-3623-E506-47A0-51A1C421F93F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2AB7B7CA-100A-DC64-3C6B-DEE01E052365" name="City PK">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>6082DC62-EEFF-C311-914A-05D0A8176FE1</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A03CDA35-EF24-848C-DDEC-E376207B59BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD41000E-1636-FF05-CF74-FC4FA529EDC5" name="country_city">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>DFE25D24-2C7E-025D-1E68-7CE6DB1A1FE6</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0B3CA9B-1EBF-506B-4A35-D070F21A3058"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

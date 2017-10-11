@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D33CBC21-2F0B-C538-71F2-2B580EF3F1B6" name="notebooks_image">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>C08C0DFA-AAC4-D358-2934-2A1D81FCDFF6</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<containerWithKeyObject>741AD323-6DB4-B414-BDA8-025021272857</containerWithKeyObject>
+<deleteRule>CASCADE</deleteRule>
+<localFKIndex>9BF37A56-4915-83E8-E342-D490D6E563FF</localFKIndex>
+<keyObject>B1523DFB-2553-DBF2-2300-9936BE23A26A</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+</FKIndexAssociation>

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3703C515-CBE6-1679-959F-13393F529F7C" name="review">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="customer_id" id="3BBFEDCF-9E54-AB51-27D7-B7620F3F7155">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>9883B5E7-8BB0-89EB-4E6B-90DD0786DFBF</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BCFDAC6-D665-D0FD-C692-091419C55D97" referredColumn="9883B5E7-8BB0-89EB-4E6B-90DD0786DFBF"/>
+</associations>
+</Column>
+<Column name="notebook_id" id="79BF0C12-C902-4E6D-10D7-F7F234F573AD">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>C0A51714-5142-80C0-2C10-863121BF1949</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26FBAADB-EC16-85E7-99D1-784EC8363738" referredColumn="C0A51714-5142-80C0-2C10-863121BF1949"/>
+</associations>
+</Column>
+<Column name="mark" id="C3780C21-52C5-655B-8D0F-F7039C2B1B4E">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>6B4CF2B8-439F-299C-1CC2-1A9D027A8C8B</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="review" id="6C23F810-E206-509D-0CFE-EC12590E4F02">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>4BFC9AF6-6C42-9387-A370-9794B214C9F7</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C451D8FB-6B83-6AAD-20F9-F1BAFEE8ABFC" name="review__IDX">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<ownerDesignName>db-scheme</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BBFEDCF-9E54-AB51-27D7-B7620F3F7155"/>
+<colUsage columnID="79BF0C12-C902-4E6D-10D7-F7F234F573AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D1D4E8A-880B-3B72-0FEB-3D0610C53233" name="FK_ASS_9">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>EE3D949C-2929-CCA7-B077-4C4A6F5B0304</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BBFEDCF-9E54-AB51-27D7-B7620F3F7155"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82537443-740F-7AFE-6CA9-5249189A02C8" name="FK_ASS_10">
+<createdBy>oracle</createdBy>
+<createdTime>2017-10-11 05:49:25 UTC</createdTime>
+<generatorID>EE3D949C-2929-CCA7-B077-4C4A6F5B0304</generatorID>
+<ownerDesignName>db-scheme</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79BF0C12-C902-4E6D-10D7-F7F234F573AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

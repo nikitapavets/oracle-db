@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'Web\MainController@statistics');
+Route::resource('basket', 'Web\BasketController');

@@ -19,6 +19,10 @@ class Notebook extends Model
         'images',
     ];
 
+    protected $appends = [
+        'name',
+    ];
+
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
@@ -41,5 +45,10 @@ class Notebook extends Model
     public function images()
     {
         return $this->hasMany(Image::class);
+    }
+
+    public function getNameAttribute()
+    {
+        return sprintf('%s %s', $this->brand->title, $this->title);
     }
 }

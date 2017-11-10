@@ -30,6 +30,10 @@ class Customer extends Authenticatable
         'city',
     ];
 
+    protected $appends = [
+        'full_name',
+    ];
+
     public function city()
     {
         return $this->belongsTo(City::class);
@@ -38,5 +42,10 @@ class Customer extends Authenticatable
     public function notebooks()
     {
         return $this->belongsToMany(Notebook::class, 'baskets');
+    }
+
+    public function getFullNameAttribute()
+    {
+        return sprintf('%s %s', $this->first_name, $this->last_name);
     }
 }

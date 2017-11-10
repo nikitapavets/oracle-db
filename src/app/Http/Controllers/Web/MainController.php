@@ -28,7 +28,7 @@ class MainController extends Controller
             $resultBrands[] = Brand::find($brandId)->title;
         }
 
-        return response()->view('welcome', [
+        return response()->view('statistics', [
             'statistics' => $resultStatistics,
             'brands' => $resultBrands,
         ]);

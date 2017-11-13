@@ -11,5 +11,6 @@
 |
 */
 
-Route::get('/', 'Web\MainController@statistics');
+Route::get('/', 'Web\MainController@statistics')
+    ->name('statistics');
 Route::resource('basket', 'Web\BasketController');

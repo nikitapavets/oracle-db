@@ -14,4 +14,14 @@ main {
     text-align: center;
     margin-bottom: 50px;
   }
+
+  .inputs {
+    margin: 0 auto;
+    width: 600px;
+  }
+
+  &.create {
+    margin: 0 auto;
+    width: 800px;
+  }
 }

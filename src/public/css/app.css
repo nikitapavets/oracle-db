@@ -12,3 +12,13 @@ main h1 {
   margin-bottom: 50px;
 }
 
+main .inputs {
+  margin: 0 auto;
+  width: 600px;
+}
+
+main.create {
+  margin: 0 auto;
+  width: 800px;
+}
+
